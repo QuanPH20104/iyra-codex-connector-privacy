@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy policy and data deletion instructions for IYRA Codex Connector, used with Ad Launcher for personal local Meta advertising management.">
+  <title>Privacy Policy · IYRA Codex Connector</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#222b36;background:#f6f7f9;line-height:1.65}
+    body{margin:0}main{max-width:760px;margin:48px auto;padding:40px;background:white;border:1px solid #e1e5eb;border-radius:16px}
+    h1,h2{line-height:1.25;letter-spacing:-.02em}h1{font-size:2.25rem;margin:.3em 0}h2{font-size:1.2rem;margin-top:2em}
+    .label,.date{color:#536171}.label{font-size:.85rem;font-weight:650;letter-spacing:.08em;text-transform:uppercase}a{color:#2055a4;overflow-wrap:anywhere}li{margin:.45em 0}footer{border-top:1px solid #e1e5eb;margin-top:32px;padding-top:20px;font-size:.9rem;color:#536171}
+    @media(max-width:600px){main{margin:0;padding:28px 22px;border:0;border-radius:0}h1{font-size:1.9rem}}
+  </style>
+</head>
+<body><main>
+  <div class="label">IYRA Codex Connector · Ad Launcher</div>
+  <h1>Privacy Policy</h1>
+  <p class="date">Effective date: 22 October 2026</p>
+  <p>This policy describes the personal, locally operated version of <strong>IYRA Codex Connector</strong> (Meta app ID 1040382255682100), used with <strong>Ad Launcher</strong> to manage Meta advertising assets that its operator is authorized to access. It is not a public advertising service or the privacy policy for an IYRA online store.</p>
+  <p>The app is operated by the individual who manages this local installation. For privacy questions or data requests, contact <a href="mailto:hatsukij1885@hotmail.com">hatsukij1885@hotmail.com</a>.</p>
+
+  <h2>Information the app processes</h2>
+  <ul>
+    <li>Meta account identifiers, basic profile information returned during authorization, granted permissions, and access tokens needed to connect to Meta.</li>
+    <li>Authorized ad account, Facebook Page, Instagram identity and pixel identifiers and related account information.</li>
+    <li>Campaigns, ad sets, ads and creatives, including settings, targeting configuration, budgets, destinations, text and media needed to copy or create advertising setups.</li>
+    <li>Files explicitly selected for upload, local draft records, previews, execution checkpoints, object identifiers and diagnostic or audit records.</li>
+    <li>Information included in an email sent to the contact address above.</li>
+  </ul>
+  <p>The local launcher does not implement collection of payment-card details, private messages, lead-form submissions or individual website visitor events. Pixel identifiers and conversion settings are used to configure ads; they are not a request to collect individual pixel event records.</p>
+
+  <h2>Why this information is used</h2>
+  <p>Information is used to authenticate the connection, verify access to advertising assets, read a selected source ad, prepare drafts, pair and upload media, create authorized advertising objects, check their resulting state, troubleshoot failures and prevent duplicate actions. The configured local workflow creates campaigns, ad sets and ads in PAUSED status.</p>
+  <p>The connection uses <code>ads_read</code> and <code>ads_management</code> for advertising operations, and <code>pages_show_list</code> and <code>pages_read_engagement</code> to identify and verify authorized Pages and associated identities. Basic profile information may also be provided by Meta during authorization.</p>
+
+  <h2>Where information is stored and sent</h2>
+  <p>The launcher runs on the operator's computer. Its backend listens on the local loopback interface and requires a local access key. Drafts, media, checkpoints and audit records are stored locally. The configured token and key files are restricted to the local operating-system user; credentials saved in the local application store are encrypted. This does not mean every local media file or diagnostic record is encrypted.</p>
+  <p>Authorized API requests send access credentials and the data required for the requested operation to Meta. Uploaded media and advertising objects are stored by Meta under Meta's own terms and privacy policy. The operator does not sell app data or provide it to data brokers.</p>
+  <p>If the operator uses an AI agent or another MCP client, that client may receive tool results such as campaign settings, identifiers, text and local file paths. Its processing and retention are governed by that client's settings and provider policy. The launcher is not intended to return access tokens in tool results; credentials should not be pasted into prompts.</p>
+
+  <h2>Retention and security</h2>
+  <p>Local records remain on the operator's computer until the operator removes them; this version does not apply an automatic retention period. Records may be retained while needed to complete or investigate an operation. Copies in backups, exported files or AI client history must be managed separately. Access tokens remain stored locally until replaced or removed, and their validity is controlled by Meta.</p>
+  <p>Local access restrictions and encrypted credential storage reduce exposure, but no storage or transmission method is guaranteed to be completely secure. The operator should protect the device and avoid including credentials in shared files or logs.</p>
+
+  <h2 id="data-deletion">Data deletion and revoking access</h2>
+  <p>To request access, correction or deletion of information processed by this app, email <a href="mailto:hatsukij1885@hotmail.com?subject=IYRA%20Codex%20Connector%20data%20request">hatsukij1885@hotmail.com</a> with the subject “IYRA Codex Connector data request.” Identify the relevant account or record, but <strong>do not send passwords or access tokens</strong>. The operator will verify the request as needed and respond regarding the data under their control.</p>
+  <p>The operator can stop the local runtime, revoke the app's access in Meta's business integration or app settings, remove local token/key files and the configured local data directory, and remove related exports and backups. Revoking access prevents further authorized API use but does not itself erase existing local records.</p>
+  <p>Removing local data does not delete campaigns, ads or media already stored by Meta. Manage those records through Meta's tools and applicable deletion procedures. Data copied to an AI client or email provider must also be managed with that provider.</p>
+
+  <h2>This policy website</h2>
+  <p>This page is hosted on GitHub Pages. It has no forms, analytics scripts, advertising pixels or cookies added by the app operator. GitHub processes technical request information, including IP addresses, for hosting and security under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Email requests are processed by the email providers involved.</p>
+
+  <h2>Changes and contact</h2>
+  <p>This page will be updated when the app's described data practices change. The effective date appears above. Questions can be sent to <a href="mailto:hatsukij1885@hotmail.com">hatsukij1885@hotmail.com</a>.</p>
+  <footer>This policy applies to the personal local installation described above. Publishing this page does not publish the local launcher or its stored data.</footer>
+</main></body>
+</html>
